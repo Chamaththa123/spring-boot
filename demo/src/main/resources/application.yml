@@ -6,7 +6,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update   # or validate / none / create-drop
+      ddl-auto: create-drop   # Fresh database on each startup
     show-sql: true
     properties:
       hibernate:

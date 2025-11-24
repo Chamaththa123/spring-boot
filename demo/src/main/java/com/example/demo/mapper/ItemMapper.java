@@ -19,6 +19,8 @@ public class ItemMapper {
                 .name(item.getName())
                 .price(item.getPrice())
                 .quantity(item.getQuantity())
+                .createdAt(item.getCreatedAt())
+                .updatedAt(item.getUpdatedAt())
                 .build();
     }
 }
